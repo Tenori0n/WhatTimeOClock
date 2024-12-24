@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WhatTimeOClock.ClockFace"
+             xmlns:y="clr-namespace:WhatTimeOClock">
+    <Grid WidthRequest="500" HeightRequest="500">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="8*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="8*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="ClockGrid" Grid.Column="1" Grid.Row="1">
+            <Ellipse Stroke="White" StrokeThickness="3"></Ellipse>
+            <Line x:Name="Oclock12" Stroke="White" StrokeThickness="5" X1="200" Y1="20" X2="200" Y2="0"></Line>
+            <Line x:Name="Min1" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min2" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min3" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min4" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Oclock1" Stroke="White" StrokeThickness="5" X1="200" Y1="20" X2="200" Y2="0"></Line>
+            <Line x:Name="Min6" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min7" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min8" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min9" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Oclock2" Stroke="White" StrokeThickness="5" X1="200" Y1="20" X2="200" Y2="0"></Line>
+            <Line x:Name="Min11" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min12" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min13" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min14" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Oclock3" Stroke="White" StrokeThickness="5" X1="200" Y1="20" X2="200" Y2="0"></Line>
+            <Line x:Name="Min16" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min17" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min18" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min19" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min20" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Oclock4" Stroke="White" StrokeThickness="5" X1="200" Y1="20" X2="200" Y2="0"></Line>
+            <Line x:Name="Min21" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min22" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min23" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min24" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Oclock5" Stroke="White" StrokeThickness="5" X1="200" Y1="20" X2="200" Y2="0"></Line>
+            <Line x:Name="Min25" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min26" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min27" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min28" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min29" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Oclock6" Stroke="White" StrokeThickness="5" X1="200" Y1="20" X2="200" Y2="0"></Line>
+            <Line x:Name="Min31" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min32" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min33" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min34" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Oclock7" Stroke="White" StrokeThickness="5" X1="200" Y1="20" X2="200" Y2="0"></Line>
+            <Line x:Name="Min36" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min37" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min38" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min39" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Oclock8" Stroke="White" StrokeThickness="5" X1="200" Y1="20" X2="200" Y2="0"></Line>
+            <Line x:Name="Min41" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min42" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min43" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min44" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Oclock9" Stroke="White" StrokeThickness="5" X1="200" Y1="20" X2="200" Y2="0"></Line>
+            <Line x:Name="Min46" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min47" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min48" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min49" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Oclock10" Stroke="White" StrokeThickness="5" X1="200" Y1="20" X2="200" Y2="0"></Line>
+            <Line x:Name="Min51" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min52" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min53" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min54" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Oclock11" Stroke="White" StrokeThickness="5" X1="200" Y1="20" X2="200" Y2="0"></Line>
+            <Line x:Name="Min56" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min57" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min58" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="Min59" Stroke="White" StrokeThickness="3" X1="200" Y1="10" X2="200" Y2="0"></Line>
+            <Line x:Name="SecondsLine" Stroke="White" StrokeThickness="1" X1="200" Y1="200" X2="200" Y2="0"></Line>
+            <Line x:Name="MinutesLine" Stroke="White" StrokeThickness="3" X1="200" Y1="200" X2="200" Y2="60"></Line>
+            <Line x:Name="HoursLine" Stroke="White" StrokeThickness="5" X1="200" Y1="200" X2="200" Y2="100"></Line>
+        </Grid>
+    </Grid>
+</ContentView>
